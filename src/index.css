@@ -1,0 +1,19 @@
+.Navbar{
+  display: flex;
+  gap: 5%;
+  background-color: azure;
+  justify-content: space-around;
+  width: 30vw;
+}
+
+
+
+.Navbar > a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.Navbar > .active{
+  color: red;
+}
